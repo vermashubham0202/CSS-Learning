@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Properties</title>
+    <style>
+        html {
+            font-size: 10px;
+        }
+
+        footer {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h2 {
+           font-size: 2rem;
+        }
+
+        h3 {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>  <!-- It will be (5 x 10) = 50px in this code -->
+    <footer>
+        <!-- In case of rem, if we change the size of footer i.e. parent of h2 element in this code
+         It will not effect the size of h2, because it is now looking for root element size which is html tag.  -->
+        
+        <h2>World</h2>  <!-- It will be (2 x 10) = 20px in this code -->
+        <h3>Heading 3</h3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Properties</title>
+    <style>
+        footer {
+            font-size: 20px;
+        }
+
+        h2 {
+           font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <footer>
+        <!-- If we change the size of footer in above CSS style properties,
+        then automatically the size of h2 tag's content will become (2 x new size).
+        This is because we choose 2em and footer is parent of h2 tag in this code.  -->
+        
+        <h2>World</h2>  <!-- It will be (2 x 20) = 40px in this code -->
+    </footer>
+</body>
+</html>
